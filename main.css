@@ -123,3 +123,8 @@ table td
     border-bottom: 1px solid #00000010;
     text-align: center;
 }
+
+tfoot td
+{
+    font-weight: bold;
+}
