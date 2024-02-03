@@ -1,0 +1,125 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body
+{
+    background-color: #fff7e8;
+}
+
+.container,
+table
+{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header
+{
+    background-color: #59a1a5;
+}
+
+header .container
+{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title
+{
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.title h1
+{
+    font-size: 52px;
+}
+
+.title h1,
+button
+{
+    font-weight: bold;
+}
+
+.title img
+{
+    margin-right: 8px;
+    height: 64px;
+}
+
+form
+{
+    display: flex;
+    align-items: flex-end;
+}
+
+.nome,
+.tel
+{
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+button
+{
+    height: 36px;
+    padding: 8px;
+    margin-right: 16px;
+    background-color: #ffffff;
+    outline-color: #ff7893;
+}
+
+input
+{
+    border: none;
+    border-bottom: 2px solid #ff7893;
+}
+
+button
+{
+    background-color: #ff7893;
+}
+
+button:hover
+{
+    cursor: pointer;
+    background-color: #bf5a6e;
+}
+
+table
+{
+    max-width: 960px;
+    margin-top: 32px;
+}
+
+table th
+{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 8px;
+    border-bottom: 2px solid #000000;
+}
+
+table img
+{
+    height: 24px;
+    width: 24px;
+}
+
+table td
+{
+    font-size: 18px;
+    padding: 8px;
+    border-bottom: 1px solid #00000010;
+    text-align: center;
+}

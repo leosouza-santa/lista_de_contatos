@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="title">
+                <img src="./images/agenda.png" alt="Agenda de contatos" />
+                <h1>
+                    Adicionar Contatos
+                </h1>
+            </div>
+            <form id="form-dados-contatos">
+                <div class="nome">
+                    <label for="nome-contato">Nome:</label>
+                    <input type="text" id="nome-contato" required placeholder="Nome do contato*"/>
+                </div>
+                <div class="tel">
+                    <label for="tel-contato">Tel.:</label>
+                    <input type="tel" id="tel-contato" required placeholder="Telefone do contato*"/>
+                </div>
+                <button type="submit">Adicionar+</button>
+            </form>
+        </div>
+    </header>
+    <div class="container">
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>
+                        <img src="./images/pessoa.png" alt="Ícone de pessoa" />
+                        Nome do contato
+                    </th>
+                    <th>
+                        <img src="./images/telefone.png" alt="Ícone de telefone">
+                        Telefone do contato
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        Total de contatos salvos
+                    </td>
+                    <td id="total-contatos">
+                        ---
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
